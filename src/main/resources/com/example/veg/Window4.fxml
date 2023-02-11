@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.veg.Controller4">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W4/Рецепт1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W4/Рецепт2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W4/Рецепт3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="187.0" layoutX="25.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W4/Рецепт4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="25.0" layoutY="590.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W4/Рецепт5.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="171.0" layoutY="14.0" text="Меню">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="216.0" layoutY="58.0" prefHeight="133.0" prefWidth="178.0" text="&quot;Картошка, тушенная с болгарским перцем и фасолью в томатном соусе&quot;&#10;&#10;Картофель - 350 г &#10;Фасоль консервированная красная - 150 г&#10;Перец болгарский - 80 г &#10;Лук репчатый - 40 г &#10;Морковь - 40 г &#10;Чеснок - 1 зубчик&#10;Томатная паста - 20 г&#10;Масло подсолнечное - 45 мл " />
+      <TextArea layoutX="216.0" layoutY="191.0" prefHeight="133.0" prefWidth="178.0" text="&quot;Рис с овощами&quot;&#10;&#10;Рис длиннозёрный – 110 г&#10;Кабачок молодой – 120 г&#10;Перец болгарский красный – 100 г&#10;Лук репчатый – 100 г&#10;Морковь – 80 г&#10;Чеснок (крупный) – 20 г &#10;Соль – 1 ч. ложка &#10;Перец чёрный молотый – на кончике ножа&#10;Приправа для плова – 7 г &#10;Масло растительное – 45 мл " />
+      <TextArea layoutX="216.0" layoutY="324.0" prefHeight="133.0" prefWidth="178.0" text="&quot;Овощное рагу с тыквой, стручковой фасолью и маринованными огурцами&quot;&#10;&#10;Картофель - 410 г &#10;Тыква - 220 г&#10;Фасоль стручковая замороженная - 130 г&#10;Огурцы маринованные - 100 г &#10;Помидор - 150 г &#10;Лук репчатый - 70 г &#10;Морковь - 50 г &#10;Чеснок - 5 г &#10;Масло растительное - 45 мл &#10;Соль - 1/3 ч. ложки " />
+      <TextArea layoutX="216.0" layoutY="457.0" prefHeight="133.0" prefWidth="178.0" text="&quot;Пепероната по-неаполитански&quot;&#10;&#10;Сладкий перец – 400 г&#10;Оливковое масло – 5 ст. ложек&#10;Чеснок – 1-2 зубчика&#10;Зелень петрушки рубленая – 1 ст. ложка&#10;Лук репчатый – 2 головки (150 г)&#10;Помидоры – 500 г&#10;Соль&#10;Перец черный молотый&#10;Сухие итальянские травы" />
+      <TextArea layoutX="216.0" layoutY="590.0" prefHeight="133.0" prefWidth="178.0" text="&quot;Картофельная запеканка с помидорами &quot;Серпантин&quot;&quot;&#10;&#10;Картофель - 5 шт.&#10;Помидоры - 2 шт.&#10;Лук репчатый - 2 шт.&#10;Соль - 0,5 ч.л.&#10;Черный молотый перец - 0,25 ч.л.&#10;Оливковое или растительное масло - 50 мл&#10;Базилик сушеный - 2 ч.л.&#10;Чеснок - 3 зуб." />
+      <Button fx:id="B1" layoutX="190.0" layoutY="748.0" mnemonicParsing="false" text="Закрыть" />
+   </children>
+</Pane>
